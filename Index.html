@@ -1,0 +1,374 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link type="text/css" href="css.css" rel="stylesheet"/>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!--[if IE]>
+
+    <style type="text/css">
+
+        .menu {
+            position: relative;
+            z-index: 7;
+
+        }
+
+        .menu ul {
+            margin: 14px 0 0 25%;
+        }
+
+        .menu ul li {
+            float: left;
+            padding: 9px 30px;
+            font-family: Myriad Pro;
+            font-size: 13px;
+            color: #fff;
+            position: relative;
+            min-width:
+        }
+
+        .menu ul li a {
+            font-family: Myriad Pro;
+            font-size: 13px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .menu ul li ul {
+            display: none;
+            background-image: none;
+            background-size: 200px 100%;
+            border-radius: 5px;
+            padding: 5px 0 2px 0;
+            position: absolute;
+            left: -30%;
+            top: 50%;
+        }
+
+        .menu ul > li:hover {
+            background-image: none;
+        }
+
+        .menu ul li:hover ul {
+            display: block;
+        }
+
+        .menu ul li:hover ul {
+            opacity: 1;
+            width: 200px;
+        }
+
+        #menu li ul li {
+            padding: 8px 20px;
+            border-radius: 5px;
+            background-color: #e5655d;
+            margin: 0px 0 0px 5px;
+            width: 150px;
+        }
+
+        #menu li:hover ul li:hover {
+            background-image: none;
+            background-color: #76c7c0;
+            border-radius: 5px;
+            opacity: 1;
+        }
+
+        #block {
+            position: relative;
+            width: 20%;
+            background-color: #f8f8f8;
+            margin: 0 4% 0 0;
+            float: left;
+            background-image: none;
+        }
+
+        #block:first-child {
+            background-color: #fff;
+            background-image: none;
+        }
+
+        #block div {
+            padding: 30px 20px;
+
+        }
+
+        #block div > img {
+            width: 66px;
+            height: 60px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        #block div p {
+            font-family: Myriad Pro;
+            font-size: 16px;
+            color: #7f8c8c;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+
+    </style>
+    <![endif]-->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Tamplate</title>
+</head>
+<body>
+<div class="wrapper">
+<div class="head-main">
+    <div class="head">
+        <a href=""><span>MODUS</span> versus</a>
+
+        <div class="menu">
+            <ul id="menu">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICES</a>
+                    <ul>
+                        <li><a href="">Portfolio 2 column page</a></li>
+                        <li><a href="">Portfolio 2 column page</a></li>
+                        <li><a href="">Portfolio 2 column page</a></li>
+                    </ul>
+                </li>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">FEATURES</a>
+                    <ul>
+                        <li><a href="">> Portfolio 2 column page</a></li>
+                        <li><a href="">> Portfolio 2 column page</a></li>
+                        <li><a href="">> Portfolio 2 column page</a></li>
+                        <li><a href="">> Portfolio 2 column page</a></li>
+                        <li><a href="">> Portfolio 2 column page</a></li>
+                    </ul>
+                </li>
+                <li><a href="">CONTACTS</a></li>
+            </ul>
+        </div>
+        <a class="show-menu-link" href=""><img class="show-menu" src="images/show.PNG"/></a>
+    </div>
+</div>
+
+<div id="slide-main">
+    <div class="slide">
+
+        <div id="center-slider">
+            <img src="images/slide-1.png"/>
+
+            <p>Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+        </div>
+        <img src="images/arrow-left.PNG" id="leftButton"/>
+        <img src="images/arrow-right.PNG" id="rightButton"/>
+
+        <div class="slide-show">
+            <img src="images/img1.PNG"/>
+            <img src="images/img2.PNG"/>
+            <img src="images/img3.PNG"/>
+            <img src="images/img4.PNG"/>
+            <img src="images/img5.PNG"/>
+        </div>
+    </div>
+    <div id="btn">
+        <div class="button"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+    </div>
+</div>
+
+<div id="some">
+    <div id="view-more">
+        <a href=""><img src="images/btn-view-more.PNG"/></a>
+
+        <h3>Some of our top services</h3>
+
+        <p>
+            Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero
+            lectus mattis orci, ut commodo.
+        </p>
+    </div>
+</div>
+
+<div id="blocks">
+    <div class="block">
+        <div>
+            <img src="images/icon1.png"/>
+
+            <p>SUSPENDISSE</p>
+
+            <p>
+                Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula
+                ut nunc.
+            </p>
+
+            <div class="reed-more">
+                <a href=""><img src="images/btn-view-more.PNG" width="200" height="54"/></a>
+            </div>
+        </div>
+    </div>
+    <div class="block">
+        <div>
+            <img src="images/icon2.png"/>
+
+            <p>MAECENAS </p>
+
+            <p>
+                Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum,
+                libero lectus mattis orci, ut commodo.
+            </p>
+
+            <div class="reed-more"><a href=""><img src="images/reedmore-green.png" width="200" height="54"/></a></div>
+        </div>
+    </div>
+    <div class="block">
+        <div>
+            <img src="images/icon3.png"/>
+
+            <p>ALIQUAM </p>
+
+            <p>
+                Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui
+                tempor non.
+            </p>
+
+            <div class="reed-more"><a href=""><img src="images/reedmore-green.png" width="200" height="54"/></a></div>
+        </div>
+    </div>
+    <div class="block">
+        <div>
+            <img src="images/icon4.png"/>
+
+            <p>HABITASSE </p>
+
+            <p>Astehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non. </p>
+
+        </div>
+        <div class="reed-more"><a href=""><img src="images/reedmore-green.png" width="200" height="54"/></a></div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div id="why">
+    <p>WHY MODUS VERSUS?</p>
+
+    <p>
+        Capacitance cascading integer reflective interface data development high bus cache dithering
+        transponder.
+    </p>
+
+    <div id="slideSecond">
+        <img src="images/sl1.PNG"/>
+        <img src="images/sl2.PNG"/>
+        <img src="images/sl3.PNG"/>
+    </div>
+</div>
+
+<div id="content">
+    <div id="one">
+        <h2>Why Choose Us ?</h2>
+        <ul>
+            <li>Quisque at massa ipsum</li>
+            <li>Maecenas a lorem augue, egestas</li>
+            <li>Cras vitae felis at lacus eleifend</li>
+            <li>Etiam auctor diam pellentesque</li>
+            <li>Nulla ac massa at dolor</li>
+            <li>Condimentum eleifend vitae vitae</li>
+        </ul>
+    </div>
+
+    <div id="two">
+        <p>
+            Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus vehicula
+            mattis. Nulla ac massa at dolor condimentum eleifend vitae vitae urna.
+        </p>
+        <img src="images/speed.png"/>
+    </div>
+
+    <div id="tree">
+        <p>What Client’s Say ?</p>
+
+        <p>
+            Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus vehicula
+            mattis. Nulla ac massa at dolor condimentum<br/><br/> <span>Jhon Doe</span>
+        </p>
+    </div>
+</div>
+
+<div id="footer">
+    <div class="part-first">
+        <div>
+            <a href="" id="ia"><span>MODUS</span> versus</a>
+
+            <p class="lr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+                pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec .
+            </p>
+
+            <p>Phone: <span>182 2569 5896</span></p>
+
+            <p>e-mail: <span>info@modu.versus</span></p>
+        </div>
+    </div>
+
+    <div class="part-second">
+        <div>
+            <h2>Company</h2>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Testimonials</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Community</h2>
+            <ul>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Forum</a></li>
+                <li><a href="">Support</a></li>
+                <li><a href="">Newsletter</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="part-third">
+        <h3>from the BLOG</h3>
+
+        <div class="block-footer-top">
+            <img src="images/footer-img-f3.png"/>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <span>26 May, 2013</span>
+        </div>
+        <div class="clear"></div>
+        <div id="block-footer-bottom">
+            <img src="images/footer-img-f3.png"/>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <span>26 May, 2013</span>
+        </div>
+    </div>
+
+</div>
+
+<div id="footer-bottom">
+    <div id="date">
+        <p>2013 ModusVersus</p>
+    </div>
+    <div id="img">
+        <a href=""><img src="images/facebook.png"/></a>
+        <a href=""><img src="images/google.png"/></a>
+        <a href=""><img src="images/twitter.png"/></a>
+        <a href=""><img src="images/rss.png"/></a>
+    </div>
+</div>
+</div>
+</body>
+</html>
